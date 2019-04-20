@@ -23,6 +23,7 @@
 }
 
 #left-down-block {
+	display: flex;
     background: #FFFFFF;
     min-height: 300px;
 }
@@ -48,6 +49,5 @@
  @media screen and (max-width: 640px){
     #main-block {
         flex-direction: column-reverse;
-        justify-content: space-around;
     }
 }
